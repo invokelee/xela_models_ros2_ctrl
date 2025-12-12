@@ -1,0 +1,7 @@
+[submodule "xela_models"]
+	path = xela_models
+	url = https://github.com/mcsix/xela_models.git
+	branch = dev1.8.0-ros2
+[submodule "allegro_hand_ros2"]
+	path = allegro_hand_ros2
+	url = https://github.com/wilson-ko/allegro_hand_ros2.git
