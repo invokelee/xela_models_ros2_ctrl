@@ -12,7 +12,9 @@ def generate_launch_description():
         DeclareLaunchArgument(
             "xela_sensor",
             description="Model of xela sensor.",
-            choices=["all_parts_of_individual_module", "allegro_hand_right_curved", "allegro_hand_left_curved", 
+            choices=["all_parts_of_individual_module", "allegro_hand_right_curved", "allegro_hand_left_curved",
+                    "x_allegro_left_curved", "x_allegro_left_w_ur_adapter",
+                    "x_allegro_right_curved", "x_allegro_right_w_ur_adapter",
             ]
         )
     )

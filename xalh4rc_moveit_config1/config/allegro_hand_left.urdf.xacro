@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="allegro_hand_left">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import allegro_hand_left urdf file -->
+    <xacro:include filename="$(find xela_ah_r2c_bringup)/urdf/x_allegro_left_no_taxel.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="allegro_hand_left.ros2_control.xacro" />
+
+
+    <xacro:allegro_hand_left_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

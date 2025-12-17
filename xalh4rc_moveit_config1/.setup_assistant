@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: xela_ah_r2c_bringup
+    relative_path: urdf/x_allegro_left_no_taxel.urdf
+  srdf:
+    relative_path: config/allegro_hand_left.srdf
+  package_settings:
+    author_name: Sanghoon Lee
+    author_email: sanghoonlee@xelarobotics.com
+    generated_timestamp: 1765970009
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
