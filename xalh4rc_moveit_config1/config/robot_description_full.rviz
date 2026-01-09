@@ -1,0 +1,2173 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 70
+    Name: Displays
+    Property Tree Widget:
+      Expanded: ~
+      Splitter Ratio: 0.5
+    Tree Height: 363
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description_full
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_0_ah_link_00:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_01:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_02:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_02_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_03:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_03_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_10:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_11:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_11_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_12:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_12_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_13:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_20:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_21:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_21_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_22:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_22_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_23:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_30:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_31:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_31_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_32:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_32_cover:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_ah_link_33:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_0_palm_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_01_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_02_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_03_aftc_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_10_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_11_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_12_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_13_aftc_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_20_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_21_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_22_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_23_aftc_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_30_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_31_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_32_4x4_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_33_aftc_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_51_4x6_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_52_4x6_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        base_x_taxel_0_53_4x6_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        hand_root:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        world:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        x_taxel_0_01_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_01_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_02_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_25_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_26_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_27_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_28_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_29_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_03_aftc_30_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_10_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_11_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_12_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_25_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_26_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_27_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_28_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_29_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_13_aftc_30_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_20_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_21_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_22_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_25_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_26_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_27_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_28_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_29_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_23_aftc_30_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_30_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_31_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_32_4x4_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_25_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_26_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_27_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_28_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_29_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_33_aftc_30_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_51_4x6_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_52_4x6_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_01_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_02_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_03_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_04_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_05_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_06_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_07_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_08_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_09_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_10_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_14_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_15_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_16_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_17_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_18_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_19_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_20_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        x_taxel_0_53_4x6_24_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+      Mass Properties:
+        Inertia: false
+        Mass: false
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 0.4672926962375641
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.00131159124430269
+        Y: -0.029638946056365967
+        Z: 0.0042400299571454525
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.30000001192092896
+      Target Frame: world
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 0
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 900
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000001000000000000019b0000032efc0200000002fb000000100044006900730070006c006100790073010000003b000001ec000000c700fffffffb0000000a00560069006500770073010000022d0000013c000000a000ffffff0000030f0000032e00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Views:
+    collapsed: false
+  Width: 1200
+  X: 407
+  Y: 427

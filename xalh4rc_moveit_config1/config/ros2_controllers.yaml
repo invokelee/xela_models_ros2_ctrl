@@ -6,9 +6,11 @@ controller_manager:
     hand_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
+
+    xela_taxel_joint_state_publisher:
+      type: xela_taxel_joint_state_publisher/XelaTaxelJointStatePublisher
 
 hand_controller:
   ros__parameters:
@@ -34,3 +36,13 @@ hand_controller:
     state_interfaces:
       - position
       - velocity
+
+xela_taxel_joint_state_publisher:
+  ros__parameters:
+    config_yaml: package://xela_taxel_joint_state_publisher/config/xela_taxel_jsp_config.yaml
+    device_profiles:
+      - allegrohand
+    output_topic: /joint_states_full
+    # source_list (optional): list of input joint_state topics to merge; omit to use defaults.
+    publish_rate: 30.0
+    preserve_input_order: true
