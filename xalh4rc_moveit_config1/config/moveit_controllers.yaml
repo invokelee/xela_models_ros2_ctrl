@@ -5,6 +5,7 @@ moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControll
 moveit_simple_controller_manager:
   controller_names:
     - hand_controller
+    - xela_taxel_joint_state_publisher
 
   hand_controller:
     type: FollowJointTrajectory

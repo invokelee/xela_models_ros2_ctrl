@@ -8,3 +8,6 @@
 [submodule "xela_taxel_joint_state_publisher"]
 	path = xela_taxel_joint_state_publisher
 	url = https://github.com/invokelshn/xela_taxel_jsp.git
+[submodule "xela_ah_r2c_bringup"]
+	path = xela_ah_r2c_bringup
+	url = https://github.com/invokelshn/xela_models_ros2_ctrl.git
